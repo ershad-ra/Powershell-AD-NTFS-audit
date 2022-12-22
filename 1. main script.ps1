@@ -116,7 +116,7 @@ foreach ($user in $users) {
     }
 
 #########
-# IF the user is a teacher
+# IF the user is a student
 #########
     if ($usertype -eq "student") {
         [string]$StartDate  = $user.StartDate
